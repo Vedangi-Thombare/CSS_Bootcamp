@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* Aurangabad */
+.main {
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+}
+.bgImg {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.BgText {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  color: white;
+  text-align: center;
+}
+.bgBtn {
+  padding: 15px 35px;
+  background-color: white;
+  color: black;
+  border-radius: 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* Zomato */
+.zomatoMain {
+  width: 805px;
+  height: 308px;
+  margin: 50px auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.foodImg {
+  width: 100%;
+  object-fit: cover;
+  object-position: 0px -70px;
+}
+
+.ZomatoTitle {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  position: relative;
+  left: 136px;
+}
+.zomatoText {
+  font-size: 25px;
+  margin: 0;
+  position: relative;
+  left: 136px;
+}
+.zomatoTextContent {
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
+  color: white;
+  text-align: center;
+}
+
+.zomatoLocation {
+  width: 120%;
+  height: 46px;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  margin: 0px 55px;
+  position: relative;
+  left: 72px;
+  top: 24px;
+}
+
+.presentLocation {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.searchBarDiv {
+  align-items: center;
+}
+.searchBar {
+  position: absolute;
+  top: 4px;
+  width: 283px;
+  height: 38px;
+  background: transparent;
+  border: none;
+  left: 218px;
+  border-left: 1px solid lightgray;
+  text-align: right;
+}
+#search {
+  position: absolute;
+  top: 10px;
+  left: 225px;
+  color: lightgray;
+}
+
+.location {
+  padding: 10px 50px;
+  padding-left: 8px;
+  padding-right: 94px;
+}
+#location_on {
+  color: #d02b2b;
+}
+/* account */
+
+.mainAccount {
+  background-color: #d8d4d4;
+  width: 455px;
+  height: 420px;
+}
+.allContent {
+  margin: auto;
+  position: relative;
+  width: 90%;
+  background-color: white;
+  top: 18px;
+  height: 400px;
+  border-radius: 16px 16px 0 0;
+}
+.account {
+  width: 100%;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+}
+
+.cover {
+  width: 100%;
+  object-fit: cover;
+  height: 180px;
+  border-radius: 16px 16px 0 0;
+}
+
+.user1 {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: 160px;
+  bottom: -60px;
+  border: 4px solid #e8ca2c;
+}
+.accountText {
+  position: absolute;
+  top: 250px;
+  left: 76px;
+  text-align: center;
+}
+
+.mainPromation {
+  width: 440px;
+  height: 482px;
+  background-color: #f1eeee;
+}
+.foodCover {
+  width: 98%;
+  height: 92%;
+  margin: auto;
+  position: relative;
+  top: 15px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.foodImgCover {
+  top: 8px;
+  left: 8px;
+  width: 96%;
+  height: 296px;
+  object-fit: cover;
+  position: relative;
+  border-radius: 16px;
+}
+.promotionalText {
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+.promotionHeading {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 16px;
+}
+.promotionText {
+  margin: 0;
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+}
+.maxSafety {
+  top: 22px;
+  width: 100%;
+  padding: 14px 12px;
+  position: relative;
+  border-top: 1px solid lightgray;
+}
+.maxSafetyText {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+  position: relative;
+  padding: 0 55px;
+  top: -36px;
+  font-weight: 500;
+  left: 26px;
+}
+.maxSafetyImg {
+  width: 18%;
+  height: 26px;
+  padding: 2px 4px;
+}
